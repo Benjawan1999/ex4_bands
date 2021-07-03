@@ -1,0 +1,13 @@
+.cards {
+    border: 1px solid black;
+    width: 215px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(7 , auto) ;
+    
+}
