@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .cards {
     border: 1px solid black;
     width: 215px;
@@ -9,5 +13,8 @@
 .card {
     display: grid;
     grid-template-columns: repeat(7 , auto) ;
-    
+}
+
+p {
+    color: gray;
 }

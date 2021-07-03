@@ -20,7 +20,7 @@ function buildCardDOM(bandss) {
         `<div class="cards">
             <img src="${photos.replace(`xxxARTIST-IDxxx`, `${bandss.art_id}`)}" alt="">
             <h2 class="album_title">${bandss.album_title}</h2>
-            <h3 class="artist_title">${bandss.artist_title}</h3>
+            <h4 class="artist_title">${bandss.artist_title}</h4>
             <P class="genre_text">${bandss.genre_text}</P>
         </div>`
     )
